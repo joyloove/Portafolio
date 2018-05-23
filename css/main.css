@@ -5,7 +5,7 @@ body {
 	font-size: 1.5em;
 	line-height: 1.6;
 	font-weight: 400;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #222;
 }
 /* Grid
@@ -451,6 +451,17 @@ opacity: 0;
 #about {
 	padding: 100px 0 50px 0;
 }
+
+#about h1, h3{
+	font-family: 'Pacifico', cursive;
+}
+
+#about h1{
+	color: #e87095;
+}
+#about p{
+	font-family: 'Open Sans', serif;
+}
 /* Team Section
 ********************************************************************* */
 #portfolio {
@@ -471,7 +482,8 @@ opacity: 0;
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#portfolio h5 {
+#portfolio h1, h5{
+	font-family: 'Pacifico', cursive;
 	color: #e55d87;
 }
 /* Skills Section
@@ -479,6 +491,10 @@ opacity: 0;
 #skills {
 	padding: 100px 0 100px 0;
 	background-color: #F5F5F5;
+}
+#skills h1, h3{
+	font-family: 'Pacifico', cursive;
+	color: #e55d87;
 }
 .progressBar {
 	margin-bottom: 26px;
@@ -557,12 +573,19 @@ opacity: 0;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+#portfolio .icon:hover{
+	color: #78d2ed;
+}
 
 /* Testimonial Section
 ********************************************************************* */
 #testimonial {
 	background-color: #e5e4e2;
 	padding: 100px 0 100px 0;
+}
+#testimonial h5 {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
 }
 .quoteLoop {
 	height: auto;
@@ -582,8 +605,18 @@ opacity: 0;
 #contact {
 	padding: 100px 0 100px 0;
 }
+#contact h1 {
+	font-family: 'Pacifico', cursive;
+	color: #e55d87;
+}
 #contact img {
 	align-items: center;
+}
+#contact h3 {
+	color: #8718bf;
+	font-family: 'Montserrat',serif;
+	font-size: 1.5em;
+	margin-bottom: 4em;
 }
 .action-button {
 	position: relative;
@@ -591,6 +624,7 @@ opacity: 0;
   margin: 0px 10px 10px 0px;
   float: left;
 	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
 	font-size: 25px;
 	color: #FFF;
 	text-decoration: none;
@@ -620,12 +654,16 @@ footer {
 }
 footer p {
 	color: #FFFFFF;
-	font-size: 21px;
+	font-size: 34px;
+	font-family: 'Sacramento', cursive;
 	margin: 20px 0 0 0;
 }
 .socialIcons {
 	font-size: 40px;
 	color: rgba(255, 255, 255, 0.7);
+}
+.socialIcons:hover{
+	color: #f27da0;
 }
 /* Lists
 ********************************************************************* */
