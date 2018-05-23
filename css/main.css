@@ -462,6 +462,10 @@ opacity: 0;
 #about p{
 	font-family: 'Open Sans', serif;
 }
+#about span {
+	color: #78d2ed;
+}
+
 /* Team Section
 ********************************************************************* */
 #portfolio {
@@ -727,7 +731,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 }
 .block {
 	width: 70px;
-	height: 2px;
+	height: 5px;
 	background: #e55d87; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
